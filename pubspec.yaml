@@ -1,0 +1,16 @@
+name: mx_player_clone
+description: A simple video player app like MX Player
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.2
+  file_picker: ^8.0.0
+
+flutter:
+  uses-material-design: true
